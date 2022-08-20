@@ -9,9 +9,9 @@ import net.minecraft.potion.Potion;
 
 public class TestItem extends ItemFood {
 
-    public TestItem(String name, String texture, int p_i45339_1_, float p_i45339_2_, boolean p_i45339_3_, int duration, int amplifier, float effectProbability)
+    public TestItem(String name, String texture, int healAmount, float saturationModifier, boolean isWolfsFavoriteMeat, int duration, int amplifier, float effectProbability)
     {
-        super(p_i45339_1_, p_i45339_2_, p_i45339_3_);
+        super(healAmount, saturationModifier, isWolfsFavoriteMeat);
 
         this.setPotionEffect(Potion.wither.getId(), duration, amplifier, effectProbability);
 
