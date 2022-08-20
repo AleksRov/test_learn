@@ -1,5 +1,6 @@
 package com.example.examplemod;
 
+import com.example.examplemod.blocks.RegistryBlock;
 import com.example.examplemod.items.RegistryItem;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -13,6 +14,7 @@ public class CommonProxy
     public void preInit(FMLPreInitializationEvent event)
     {
         RegistryItem.registration();
+        RegistryBlock.registration();
     }
 
     public void init(FMLInitializationEvent event)

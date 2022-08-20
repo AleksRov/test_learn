@@ -3,13 +3,9 @@ package com.example.examplemod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
-import ru.justagod.cutter.GradleSide;
-import ru.justagod.cutter.GradleSideOnly;
-import ru.justagod.cutter.invoke.Invoke;
 
 @Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
 public class ExampleMod
