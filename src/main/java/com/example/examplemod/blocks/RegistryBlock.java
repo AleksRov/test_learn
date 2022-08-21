@@ -1,6 +1,5 @@
 package com.example.examplemod.blocks;
 
-import com.example.examplemod.items.TestItem;
 import net.minecraft.block.material.Material;
 
 public class RegistryBlock {
